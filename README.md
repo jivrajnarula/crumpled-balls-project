@@ -1,1 +1,2 @@
-# crumpled-balls-project
+# MatterJSBoilerPlate
+MatterJSBoilerPlate
