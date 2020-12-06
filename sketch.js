@@ -15,6 +15,10 @@ function setup() {
 
 	engine = Engine.create();
 	world = engine.world;
+	
+	box1Sprite=createSprite(20,200,20,200)
+    box2Sprite=createSprite(10,200,100,20)
+	box3Sprite=createSprite(50,200,100,20)
 
 	//Create the Bodies Here.
 
@@ -27,7 +31,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  
+
   drawSprites();
  
 }
